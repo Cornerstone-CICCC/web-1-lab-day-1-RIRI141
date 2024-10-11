@@ -2,3 +2,57 @@ main,
 footer {
   display: flex;
 }
+
+.logo {
+  text-align: center;
+  background: #111d51;
+}
+
+.sidebar {
+  background: #ff0;
+}
+
+.sidebar > h3 {
+  color: blue;
+}
+
+.content {
+  background: #0ff;
+}
+.content > img {
+  width: 100%;
+}
+
+#about + p {
+  background: #000;
+  color: #fff;
+}
+
+#services + p {
+  background: green;
+  color: #fff;
+}
+#services + p + ul {
+  list-style: circle;
+}
+
+#services + p + ul > li:nth-of-type(2n) {
+  color: red;
+}
+
+#contact ~ ul a {
+  color: red;
+}
+
+footer > div:first-child {
+  background: #ffbfcb;
+}
+
+footer > div:nth-child(2) {
+  background: #a5292a;
+  color: #fff;
+}
+
+footer > div:last-child {
+  background: #808080;
+}
